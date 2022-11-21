@@ -79,6 +79,8 @@ group :test do
   gem "webdrivers"
   gem 'factory_bot_rails'
   gem 'faker'
+  # Lets you name your tests and group them together using English.
+  gem "shoulda-context"
   # For stubbing requests
   gem "webmock"
 end
